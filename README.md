@@ -8,7 +8,7 @@ enable users to track pokemon caught within their pokedex
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>C#</b> 
+- <b>Java</b> 
 - <b>Android Studio</b>
 
 <h2>Environments Used </h2>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/pokedexBack"
+        android:layout_width="422dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="matrix"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/test" />
+
+    <Button
+        android:id="@+id/btnKanto"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mybutton"
+        android:text="@string/btnKanto"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:typeface="serif"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regionTxt" />
+
+    <TextView
+        android:id="@+id/regionTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="304dp"
+        android:text="@string/regionTxt"
+        android:textAllCaps="false"
+        android:textColor="#ff000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnJohto"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mybutton"
+        android:text="@string/btnJohto"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:typeface="serif"
+        app:layout_constraintStart_toEndOf="@+id/btnKanto"
+        app:layout_constraintTop_toBottomOf="@+id/regionTxt" />
+
+    <Button
+        android:id="@+id/btnHoenn"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/mybutton"
+        android:text="@string/btnHoenn"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:typeface="serif"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnKanto" />
+
+    <Button
+        android:id="@+id/btnSinnoh"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/mybutton"
+        android:text="@string/btnSinnoh"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:typeface="serif"
+        app:layout_constraintStart_toEndOf="@+id/btnHoenn"
+        app:layout_constraintTop_toBottomOf="@+id/btnJohto" />
+</android.support.constraint.ConstraintLayout>
